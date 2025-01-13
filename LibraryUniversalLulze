@@ -1,0 +1,178 @@
+
+-- Instances
+
+local Menu = Instance.new(ScreenGui)
+local Abas = Instance.new(Frame)
+local UICorner = Instance.new(UICorner)
+local TextButton = Instance.new(TextButton)
+local TextButton_2 = Instance.new(TextButton)
+local Fundos = Instance.new(Frame)
+local TextLabel = Instance.new(TextLabel)
+local UICorner_2 = Instance.new(UICorner)
+local TextButton_3 = Instance.new(TextButton)
+local UICorner_3 = Instance.new(UICorner)
+local ImageButton = Instance.new(ImageButton)
+local ImageButton_2 = Instance.new(ImageButton)
+local TextButton_4 = Instance.new(TextButton)
+local UICorner_4 = Instance.new(UICorner)
+local ImageButton_3 = Instance.new(ImageButton)
+local ImageButton_4 = Instance.new(ImageButton)
+local TextLabel_2 = Instance.new(TextLabel)
+
+--Properties
+
+Menu.Name = Menu
+Menu.Parent = game.Players.LocalPlayerWaitForChild(PlayerGui)
+Menu.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Abas.Name = Abas
+Abas.Parent = Menu
+Abas.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Abas.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Abas.BorderSizePixel = 0
+Abas.Position = UDim2.new(0.293543279, 0, 0.30276382, 0)
+Abas.Size = UDim2.new(0, 658, 0, 53)
+Abas.Draggable = true
+Abas.Active = true
+Abas.Selectable = true
+
+UICorner.CornerRadius = UDim.new(0, 5)
+UICorner.Parent = Abas
+
+TextButton.Parent = Abas
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 42, 0)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderColor3 = Color3.fromRGB(255, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.924012184, 0, 0.0566037744, 0)
+TextButton.Size = UDim2.new(0, 50, 0, 50)
+TextButton.Font = Enum.Font.RobotoCondensed
+TextButton.Text = X
+TextButton.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 67.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1DownConnect(function()
+	MenuDestroy()
+end)
+
+TextButton_2.Parent = Abas
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.832826734, 0, 0, 0)
+TextButton_2.Size = UDim2.new(0, 50, 0, 50)
+TextButton_2.Font = Enum.Font.RobotoCondensed
+TextButton_2.Text = -
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 100.000
+TextButton_2.TextWrapped = true
+TextButton_2.MouseButton1DownConnect(function()
+	Fundos.Visible = not Fundos.Visible
+end)
+
+
+Fundos.Name = Fundos
+Fundos.Parent = Abas
+Fundos.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+Fundos.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fundos.BorderSizePixel = 0
+Fundos.Position = UDim2.new(0, 0, 0.943396211, 0)
+Fundos.Size = UDim2.new(0, 658, 0, 309)
+
+TextLabel.Parent = Fundos
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.010
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.348024309, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.RobotoCondensed
+TextLabel.Text = Universal Languages
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 46.000
+
+UICorner_2.Parent = Fundos
+
+TextButton_3.Parent = Fundos
+TextButton_3.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.0577507615, 0, 0.161812291, 0)
+TextButton_3.Size = UDim2.new(0, 581, 0, 68)
+TextButton_3.Font = Enum.Font.RobotoCondensed
+TextButton_3.Text = Executar Script Português
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 36.000
+TextButton_2.MouseButton1DownConnect(function()
+ --(COLOCA O SCRIPT AQUI O BIXO BURRO)--
+end)
+
+
+UICorner_3.Parent = TextButton_3
+
+ImageButton.Parent = Fundos
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BackgroundTransparency = 1.000
+ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.0258358661, 0, 0.135922328, 0)
+ImageButton.Size = UDim2.new(0, 147, 0, 84)
+ImageButton.Image = rbxassetid74283357140722
+
+ImageButton_2.Parent = Fundos
+ImageButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_2.BackgroundTransparency = 1.000
+ImageButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_2.BorderSizePixel = 0
+ImageButton_2.Position = UDim2.new(0.741641343, 0, 0.135922328, 0)
+ImageButton_2.Size = UDim2.new(0, 147, 0, 84)
+ImageButton_2.Image = rbxassetid74283357140722
+
+TextButton_4.Parent = Fundos
+TextButton_4.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.0577507615, 0, 0.462783158, 0)
+TextButton_4.Size = UDim2.new(0, 581, 0, 68)
+TextButton_4.Font = Enum.Font.RobotoCondensed
+TextButton_4.Text = Execute Script Englês
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 36.000
+TextButton_4.MouseButton1DownConnect(function()
+ --(COLOCA O SCRIPT AQUI O BIXO BURRO)--
+end)
+
+
+UICorner_4.Parent = TextButton_4
+
+ImageButton_3.Parent = Fundos
+ImageButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_3.BackgroundTransparency = 1.000
+ImageButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_3.BorderSizePixel = 0
+ImageButton_3.Position = UDim2.new(0.741641343, 0, 0.436893195, 0)
+ImageButton_3.Size = UDim2.new(0, 147, 0, 84)
+ImageButton_3.Image = rbxassetid85306941087226
+
+ImageButton_4.Parent = Fundos
+ImageButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_4.BackgroundTransparency = 1.000
+ImageButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_4.BorderSizePixel = 0
+ImageButton_4.Position = UDim2.new(0.0258358661, 0, 0.436893195, 0)
+ImageButton_4.Size = UDim2.new(0, 147, 0, 84)
+ImageButton_4.Image = rbxassetid85306941087226
+
+TextLabel_2.Parent = Fundos
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.348024309, 0, 0.70873785, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.RobotoCondensed
+TextLabel_2.Text = Nick Discord blazito_yt (ContatoContact)
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 30.000
